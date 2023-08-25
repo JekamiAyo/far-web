@@ -1,0 +1,215 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 73926,
+      "type": "SCALAR",
+      "max": [
+        73925
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 73926,
+      "type": "VEC3",
+      "max": [
+        14.077380180358887,
+        13.118585586547852,
+        5.859410762786865
+      ],
+      "min": [
+        -13.977237701416016,
+        0.03305879980325699,
+        -4.876564979553223
+      ],
+      "name": "POSITION"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 73926,
+      "type": "VEC3",
+      "max": [
+        0.9998249411582947,
+        0.9999760985374451,
+        0.9997586011886597
+      ],
+      "min": [
+        -0.9997900128364563,
+        -0.9999969005584717,
+        -0.9999744892120361
+      ],
+      "name": "NORMAL"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 73926,
+      "type": "VEC2",
+      "max": [
+        0.9866842031478882,
+        -0.00004003227149951272
+      ],
+      "min": [
+        0.0001346837088931352,
+        -0.9999759793281555
+      ],
+      "name": "TEXCOORD_0"
+    }
+  ],
+  "asset": {
+    "generator": "Aspose.3D 23.6.0",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "PegasusTrail.usdz_data.bin",
+      "byteLength": 2661336
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 295704,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 295704,
+      "byteLength": 2365632,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "images": [
+    {
+      "uri": "PegasusTrail.usdz_img0.png"
+    },
+    {
+      "uri": "PegasusTrail.usdz_img1.png"
+    },
+    {
+      "uri": "PegasusTrail.usdz_img2.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "g1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421
+      },
+      "normalTexture": {
+        "index": 0,
+        "texCoord": 0,
+        "scale": 1
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ],
+      "name": "g0"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "g0"
+    },
+    {
+      "children": [
+        0
+      ],
+      "name": "baked_mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "normal_texture"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "occlusion_texture"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "diffuseColor_texture"
+    }
+  ]
+}
